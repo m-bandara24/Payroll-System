@@ -40,3 +40,38 @@ Data Storage:
 Error Handling:
 
   * Validation to prevent crashes and handle incorrect user inputs gracefully (e.g., invalid employee IDs).
+
+🛠️ **Installation & Setup**
+
+
+**Clone the Repository:**
+
+```
+git clone https://github.com/m-bandara24/payroll-system.git
+cd payroll-system
+```
+
+**Install Required Dependencies:**
+
+No external dependencies are required beyond Python's standard library. Ensure Python 3.x is installed:
+
+```
+python --version
+```
+
+**Run the Application:**
+
+```
+python main.py
+```
+📑 **OOP Principles Demonstrated**
+
+* Encapsulation:
+
+  The Employee class and its child classes encapsulate employee details and behavior.
+* Inheritance:
+
+  FullTimeEmployee, PartTimeEmployee, and Intern inherit from the Employee class.
+* Polymorphism:
+
+  Different types of employees (part-time, full-time, interns) calculate wages differently using overridden methods.
